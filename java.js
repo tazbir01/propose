@@ -5,9 +5,23 @@ const noPhrases = ["Are you sure?", "Really?", "No way!", "Think again!"];
 
 
 function onYesClick(){
-  counter++;
+  // counter++;
   // document.getElementById('yesBtn').style.width = `${counter * 50}px`;
   // document.getElementById('yesBtn').style.height = `${counter * 50}px`;
+  const yesBtn = document.getElementById('yesBtn')
+  const noBtn = document.getElementById('noBtn')
+  const message = document.getElementById('message')
+  // const congratulationsEmoji = document.getElementById('congratulationsEmoji');
+  // congratulationsEmoji.innerHTML = '<p>I love you too!</p>';
+  const propose = document.getElementById('propose')
+  propose.style.display = `none`
+  yesBtn.style.display = `none`
+  noBtn.style.display = `none`
+  message.style.display = `block`
+
+  setTimeout(() => {
+    congratulationsEmoji.innerHTML = '';
+  }, 3000);
 }
 
 
