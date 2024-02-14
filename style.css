@@ -1,35 +1,59 @@
 body {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f9f9f9;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  button {
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
-  #yesBtn {
-    background-color: #4caf50;
-    color: white;
-    text-align: center;
-  }
-  
-  #noBtn {
-    background-color: #ff3333;
-    color: white;
-    text-align: center;
-  }
-  
-  #message {
-    display: none;
-  }
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container {
+  text-align: center;
+}
+
+#propose {
+  color: #ff4d6d;
+  font-size: 2em;
+  margin: 0;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#yesBtn {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+#noBtn {
+  background-color: #ff3333;
+  color: white;
+  text-align: center;
+}
+
+#message {
+  display: none;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.congrats {
+  color: #4CAF50;
+  font-size: 2em;
+  margin: 0;
+}
+
+.love {
+  color: #333333;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+

@@ -1,7 +1,7 @@
 
 
 let counter = 1;
-const noPhrases = ["Are you sure?", "Really?", "No way!", "Think again!"];
+const noPhrases = ["Are you sure?", "Not a chance!", "Nah!", "Really?", "Don't even think about it!", "No way!", "Think again!", "Sorry, not happening!", "Nope, nope, nope!"];
 
 
 function onYesClick() {
