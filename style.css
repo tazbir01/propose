@@ -21,11 +21,13 @@ body {
   #yesBtn {
     background-color: #4caf50;
     color: white;
+    text-align: center;
   }
   
   #noBtn {
     background-color: #ff3333;
     color: white;
+    text-align: center;
   }
   
   #message {
