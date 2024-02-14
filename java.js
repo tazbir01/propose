@@ -98,19 +98,18 @@ function onNoClick() {
   const noBtn = document.getElementById('noBtn')
   const yesBtn = document.getElementById('yesBtn')
 
-
   yesBtn.style.width = `${counter * 50}px`
   yesBtn.style.height = `${counter * 50}px`
   yesBtn.style.fontSize = `${counter * 20}px`
 
+
   const newText = noPhrases[counter % noPhrases.length]
   noBtn.innerText = newText
 
-  if (counter * 50 >= window.innerWidth * 0.7) {
+  if (counter * 40 >= window.innerWidth * (window.innerWidth < 425 ? 0.9 : 0.4)) {
     yesBtn.style.width = '100vw';
     yesBtn.style.height = '90vh';
     noBtn.style.display = 'none';
   }
-
 
 }
