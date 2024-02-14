@@ -37,7 +37,7 @@ function onNoClick(){
   const newText = noPhrases[counter % noPhrases.length]
   noBtn.innerText = newText
 
-  if (counter * 50 >= window.innerWidth * 0.5) {
+  if (counter * 50 >= window.innerWidth * 0.7) {
     yesBtn.style.width = '100vw';
     yesBtn.style.height = '90vh';
     noBtn.style.display = 'none';
